@@ -7,6 +7,34 @@ body {
   background-color: #333; /* Background color for dark mode */
   color: #f0f0f0; /* Text color for dark mode */
 }
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+
+.switch::before {
+  content: "Come to the dark side"; 
+  position: absolute;
+  top: 50%; 
+  right: calc(100% + 10px); 
+  transform: translateY(-50%); 
+  display: none; 
+}
+
+/* Show the pseudo-element when hovering over the switch */
+.switch:hover::before {
+  display: block;
+  background-color: #333; /* Add styles for the tooltip background */
+  color: #fff; /* Add styles for the tooltip text color */
+  padding: 5px; /* Add padding for better readability */
+  border-radius: 3px; /* Add rounded corners for the tooltip */
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;

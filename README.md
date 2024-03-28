@@ -9,4 +9,4 @@ Me and a friend. Also had help from Tutor
 ## Link
 Link to deployed website (https://tristansmith63.github.io/personal-blog/)
 ## Photo
-Screenshot of the deployed webpage
+ ![alt text](image.png) Screenshot of the deployed webpage
