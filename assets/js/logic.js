@@ -22,4 +22,4 @@ function isLocalStorageSupported() {
   function getPostsFromLocalStorage() {
     return JSON.parse(localStorage.getItem('posts')) || [];
   }
-  
+  console.log

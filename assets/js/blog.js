@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         postElement.innerHTML = `
           <h2>${post.title}</h2>
           <p>${post.content}</p>
-          <p><em>By ${post.username}</em></p>
+          <p><em>By ${post.username} on ${post.date} </em></p>
         `;
         postsContainer.appendChild(postElement);
       });
