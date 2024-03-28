@@ -22,4 +22,17 @@ function isLocalStorageSupported() {
   function getPostsFromLocalStorage() {
     return JSON.parse(localStorage.getItem('posts')) || [];
   }
-  console.log
+  
+  
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Get a reference to the toggle switch element
+  const themeToggle = document.getElementById('themeToggle');
+
+  //event listener 
+  themeToggle.addEventListener('change', function() {
+    // Toggle the 'dark-theme' class on the body element when the toggle switch is clicked
+    document.body.classList.toggle('dark-theme');
+  });
+});

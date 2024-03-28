@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Blog</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
   </head>
   <body>
     <div class="container">
@@ -14,6 +15,10 @@
       </header>
       <main>
         <form id="blogForm">
+          <label class="switch">
+            <input type="checkbox" id="themeToggle" />
+            <span class="slider"></span>
+          </label>
           <label for="username">Username:</label>
           <input type="text" id="username" required />
           <label for="title">Blog Title:</label>
@@ -24,12 +29,10 @@
         </form>
         <p id="formMessage" class="hidden">Please complete the form.</p>
       </main>
-      <footer>
-        <a href="https://developerportfolio.com">Developer's Portfolio</a>
-      </footer>
+      
     </div>
     <script src="assets/js/form.js"></script>
     <script src="assets/js/logic.js"></script>
-    <script src="assets/js/logic.js"></script>
+    
   </body>
 </html>

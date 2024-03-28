@@ -1,6 +1,6 @@
 /* form.css */
 
-/* Add your CSS styles for the form elements here */
+
 input[type="text"],
 textarea {
   width: 100%;
@@ -10,7 +10,7 @@ textarea {
 
 button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #060706;
   color: #fff;
   border: none;
   cursor: pointer;

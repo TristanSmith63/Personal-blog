@@ -25,9 +25,5 @@ document.addEventListener('DOMContentLoaded', function() {
     backButton.addEventListener('click', () => {
       window.location.href = 'index.html';
     });
-  
-    themeToggle.addEventListener('change', () => {
-      document.body.classList.toggle('dark-theme');
     });
-  });
   

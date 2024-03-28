@@ -2,7 +2,10 @@
 #blogPosts {
   margin-top: 20px;
 }
-
+.dark-theme {
+  background-color: #333; /* Background color for dark mode */
+  color: #f0f0f0; /* Text color for dark mode */
+}
 .post {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
